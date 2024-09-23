@@ -134,18 +134,29 @@ nav ul li a:hover {
     </style>
 </head>
 <body>
-     <!-- Navbar -->
+
    
 
+
     <div class="form-container">
-        <h2>Create an Entry</h2>
+        <h1 style="text-align: center;">Semesters</h1>
+ 
+
+        <h2>Add a new Semester</h2>
+        <form action="/add-semester" method="POST">
+          <input type="text" name="name" placeholder="Semester name" required>
+          <button type="submit">Add Semester</button>
+        </form>
+
+
+        <!-- <h2>Create an Entry</h2>
         <form method="post" action="/home">
             <input type="text" name="year" placeholder="Enter Year" required>
             <input type="text" name="semester" placeholder="Enter Semester" required>
             <input type="text" name="subject" placeholder="Enter Subject" required>
             <textarea name="content" placeholder="Enter Content" required></textarea>
             <button type="submit">Submit</button>
-        </form>
+        </form> -->
     </div>
 </body>
 </html>

@@ -211,23 +211,23 @@ filter: grayscale(0);
 }
 /* Sections */
 .sections {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    overflow-x: scroll;
-    overflow-y: scroll;
+   margin-top: 20px; 
+   
 }
-.section {
-    width: 30%;
-    padding: 20px;
-    background: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    overflow-x: scroll;
+.section{
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border:1px solid #000;
+    transition: all 0.5s ;
 }
+
+
+    
 .section:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
+    background-color: #ff5722;
+    color: #000;
+    font-weight: 700;
 }
 .section h2 {
     margin-bottom: 10px;
